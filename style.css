@@ -1,0 +1,70 @@
+
+/*
+#8A4A47
+*/
+
+/*title label styles*/
+#titleLbl
+{
+   -fx-font-family: "Impact";
+   -fx-font-size: 50px;
+   -fx-text-fill: #4c6885;
+   -fx-font-weight: bold;
+}
+
+/*general label styles*/
+#lbl
+{
+   -fx-font-size: 16px;
+   -fx-font-family: "Lucida Console";
+   -fx-text-fill: #4c6885;
+}
+
+/*status label styles*/
+#statusLbl
+{
+   -fx-font-size: 16px;
+   -fx-font-family: "Lucida Console";
+   -fx-font-weight: bold;
+   -fx-text-fill: #4c6885;
+}
+
+/*button style*/
+
+#customiseBtn
+{
+   -fx-font-size: 15px;
+   -fx-text-fill: #4c6885;
+   -fx-font-family: "Impact";
+}
+
+
+#newGameBtn, #giveUpBtn, #quitBtn
+{
+   -fx-font-size: 16px;
+   -fx-text-fill: #4c6885;
+   -fx-font-family: "Impact";
+}
+
+/*grid button styles*/
+.grid-button 
+{
+   -fx-pref-width: 160px;
+   -fx-pref-height: 160px;
+   -fx-background-radius: 0;
+   -fx-background-color: #4c6885;
+   -fx-border-color: black;
+   -fx-border-width: 1px;
+}
+
+/*hover effect for grid buttons*/
+.grid-button:hover {
+    -fx-background-color: #295B8C;
+    -fx-cursor: hand;
+}
+
+/*disabled cell button styles*/
+.cell-button:disabled {   
+    -fx-opacity: 1; 
+}
+
