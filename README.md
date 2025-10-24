@@ -62,3 +62,47 @@ cd "C:\Users\<yourname>\CODING PROJECTS\University Projects\Battleship Game"
 javac --module-path "C:\javafx-sdk-25.0.1\lib" --add-modules javafx.controls,javafx.fxml *.java
 
 java --module-path "C:\javafx-sdk-25.0.1\lib" --add-modules javafx.controls,javafx.fxml BattleshipsGUI
+
+---
+
+## ▶️ Step 3 — Run in VS Code
+
+Add this config inside .vscode/launch.json:
+{
+  "type": "java",
+  "name": "BattleshipsGUI (JavaFX)",
+  "request": "launch",
+  "mainClass": "BattleshipsGUI",
+  "vmArgs": "--module-path \"C:\\javafx-sdk-25.0.1\\lib\" --add-modules javafx.controls,javafx.fxml"
+}
+
+Then:
+*Open the Run & Debug panel (Ctrl + Shift + D)
+*Select BattleshipsGUI (JavaFX)
+*Click ▶️ Run
+
+## 🎨 UI Styling (style.css)
+
+JavaFX CSS gives the interface a sleek modern look.
+
+.grid-button {
+   -fx-pref-width: 160px;
+   -fx-pref-height: 160px;
+   -fx-background-color: #4c6885;
+   -fx-border-color: black;
+}
+.grid-button:hover {
+   -fx-background-color: #295B8C;
+   -fx-cursor: hand;
+}
+
+🖌️ Typography and colors were chosen to reflect a naval theme with blue tones.
+
+## 🧠 Concepts Demonstrated
+
+*JavaFX GUI Framework (Scenes, Layouts, Events)
+*Object-Oriented Programming (Encapsulation, Classes)
+*Event-Driven Logic (Buttons, Listeners)
+*Grid Management & Cell State Tracking
+*JavaFX CSS Styling
+*Modular & Readable Code Design
