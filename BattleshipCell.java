@@ -1,12 +1,4 @@
-/*
-Written by:	Maeve Carr
-Date:
-Desc: 
-Filename:
-*/
 
-////NO COMMENTS////////////
-////Figure it out!!!   ////////////
 public class BattleshipCell{
 	
    boolean ship;
