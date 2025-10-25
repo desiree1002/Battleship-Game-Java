@@ -18,7 +18,7 @@
 ---
 
 ## 🗂️ Project Structure
-
+```
 Battleship Game/
 │
 ├── BattleshipsGUI.java # Main GUI class (JavaFX Application)
@@ -27,7 +27,7 @@ Battleship Game/
 ├── BattleshipTester.java # Test / console runner
 ├── style.css # JavaFX custom styles
 └── README.md # This file
-
+```
 ---
 
 ## ⚙️ Requirements
@@ -82,9 +82,39 @@ Then:
 2. Select BattleshipsGUI (JavaFX)
 3. Click ▶️ Run
 
-### 🎨 UI Styling (style.css)
-JavaFX CSS gives the interface a sleek, modern look:
+---
 
+## ⚙️ Manual Run Instructions (Alternative)
+
+If the **Run ▶️** button in VS Code doesn’t work, you can compile and run the project manually from a terminal.
+
+### 🧭 Step 1 — Navigate to the project folder
+```bash
+cd "C:\Projects\Battleship-Game"
+```
+### ⚙️ Step 2 — Compile all Java files
+
+```bash
+javac --module-path "C:\javafx-sdk-25.0.1\lib" --add-modules javafx.controls,javafx.fxml,javafx.graphics *.java
+```
+
+### 🚀 Step 3 — Run the main program
+
+```bash
+javac --module-path "C:\javafx-sdk-25.0.1\lib" --add-modules javafx.controls,javafx.fxml,javafx.graphics *.java
+```
+This will open the Battleship GUI window.
+
+#### ⚡ One-Line Shortcut
+You can compile and run in a single command:
+```bash
+javac --module-path "C:\javafx-sdk-25.0.1\lib" --add-modules javafx.controls,javafx.fxml,javafx.graphics *.java && java --module-path "C:\javafx-sdk-25.0.1\lib" --add-modules javafx.controls,javafx.fxml,javafx.graphics BattleshipsGUI
+```
+---
+
+## 🎨 UI Styling (style.css)
+JavaFX CSS gives the interface a sleek, modern look:
+```
 .grid-button {
    -fx-pref-width: 160px;
    -fx-pref-height: 160px;
@@ -95,33 +125,36 @@ JavaFX CSS gives the interface a sleek, modern look:
    -fx-background-color: #295B8C;
    -fx-cursor: hand;
 }
-
-🖌️ Typography and colors were chosen to reflect a naval theme with deep blue tones.
-
----
-
-### 🧠 Concepts Demonstrated
-
-*JavaFX GUI Framework (Scenes, Layouts, Events)
-*Object-Oriented Programming (Encapsulation, Classes)
-*Event-Driven Logic (Buttons, Listeners)
-*Grid Management & Cell State Tracking
-*JavaFX CSS Styling
-*Modular & Readable Code Design
+```
+🖌️ Typography and colors were chosen to reflect a **naval theme** with deep blue tones.
 
 ---
 
-### 📸 Screenshots
+## 🧠 Concepts Demonstrated
 
-Main Window
+- JavaFX GUI Framework (Scenes, Layouts, Events)  
+- Object-Oriented Programming (Encapsulation, Classes)  
+- Event-Driven Logic (Buttons, Listeners)  
+- Grid Management & Cell State Tracking  
+- JavaFX CSS Styling  
+- Modular & Readable Code Design  
 
 ---
 
-### 👩‍💻 Author
+## 📸 Screenshots
 
-Desiree Payoyo
-🎓 BSc Computer Science — Atlantic Technological University (ATU) Donegal
-💼 Interests: Web & App Development | Java | UI/UX Design
-🌐 LinkedIn Profile
- (https://www.linkedin.com/in/desiree-payoyo/)
+| 🧩 Customise Screen | 🏳️ Give Up Button | 🎮 New Game | 🚢 Gameplay |
+|----------------------|-------------------|-------------|-------------|
+| ![Customise Screen](docs/customise.PNG) | ![Give Up Screen](docs/giveup.PNG) | ![New Game Screen](docs/newGame.png) | ![Gameplay](docs/playing.png) |
+
+
+---
+
+## 👩‍💻 Author
+
+**Desiree Payoyo**  
+🎓 BSc Computer Science — Atlantic Technological University (ATU) Donegal  
+💼 Interests: Web & App Development | Java | UI/UX Design  
+🌐 [LinkedIn Profile](https://www.linkedin.com/in/desiree-payoyo/)
+
  
