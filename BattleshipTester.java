@@ -1,12 +1,3 @@
-/*
-Written by:	Maeve Carr
-Date:
-Desc: 
-Filename:
-*/
-
-/////YOU WILL NOT NEED THIS CODE - BUT HAVE INCLUDED IT FOR TESTING
-/////no proper error checking..
 
 
 import java.util.*;
@@ -17,8 +8,6 @@ public class BattleshipTester
 	{
 		Scanner keyIn = new Scanner(System.in);
 		BattleshipsGame myGame = new BattleshipsGame();
-
-	//	myGame.setNoOfShips(6);
 	
 		System.out.println();
 		//just so I can see where ships are - for testing
@@ -33,19 +22,15 @@ public class BattleshipTester
 			String message = myGame.shoot(row, col);
 			
 			System.out.println(message);
-		 
-       //  System.out.println("No of ships hit: " +myGame.getHits()); //for testing
-
 		}while(myGame.getLives() > 0 &&  myGame.getHits() < 6);	
 		
 		if(myGame.getLives() == 0)
-         System.out.print("Sorry - you lose ");
-      else
-         System.out.print("WELL DONE - YOU WIN! ");
+        	System.out.print("Sorry - you lose ");
+      	else
+        	System.out.print("WELL DONE - YOU WIN! ");
    
 		System.out.println();
 		myGame.showGrid();
-
 	}
 }
 
