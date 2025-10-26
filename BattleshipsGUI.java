@@ -1,15 +1,4 @@
 
-
-/*
-
-Written by:	Desiree Payoyo
-Date:
-Desc: 
-Filename:
-
-*/
-
-
 import javafx.application.*;
 import javafx.geometry.*;
 import javafx.scene.*;
@@ -348,24 +337,6 @@ public class BattleshipsGUI extends Application
        }
    }
 
-   /// /reveals all ships at the end of the game
-//    private void revealAllShips() 
-//    {
-//        for (int row = 0; row < gridSize; row++) 
-//        {
-//            for (int col = 0; col < gridSize; col++) 
-//            {   
-//                //check if there is a ship at this position
-//                if (game.getGrid()[row][col].isShip()) 
-//                {  
-//                    ImageView imageView = imageGrid[row][col];
-//                    imageView.setImage(new Image("file:resources/ship22.gif"));
-//                    cells[row][col].setGraphic(imageView);  
-//                }
-//            }
-//        }
-//    }
-//    
    //reveals all ships at the end of the game
    private void revealAllShips() 
    {

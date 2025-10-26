@@ -1,12 +1,3 @@
-/*
-Written by:	Maeve Carr
-Date:
-Desc: 
-Filename:
-*/
-
-/////NO COMMENTS - FIGURE IT OUT
-
 
 import java.util.*;
 
