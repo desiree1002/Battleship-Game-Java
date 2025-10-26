@@ -1,0 +1,17 @@
+# === Java & JavaFX ===
+*.class
+*.log
+*.jar
+
+# === VS Code & IDE files ===
+.vscode/
+.idea/
+*.iml
+
+# === OS junk ===
+.DS_Store
+Thumbs.db
+
+# === Temporary files ===
+*.tmp
+*.bak
