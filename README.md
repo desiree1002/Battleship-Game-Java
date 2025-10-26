@@ -145,7 +145,7 @@ JavaFX CSS gives the interface a sleek, modern look:
 
 | 🧩 Customise Screen | 🏳️ Give Up Button | 🎮 New Game | 🚢 Gameplay |
 |----------------------|-------------------|-------------|-------------|
-| ![Customise Screen](docs/customise.PNG) | ![Give Up Screen](docs/giveup.PNG) | ![New Game Screen](docs/newGame.png) | ![Gameplay](docs/playing.png) |
+| ![Customise Screen](docs/customise.png) | ![Give Up Screen](docs/giveup.PNG) | ![New Game Screen](docs/newGame.png) | ![Gameplay](docs/playing.png) |
 
 
 ---
