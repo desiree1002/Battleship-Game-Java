@@ -153,7 +153,7 @@ JavaFX CSS gives the interface a sleek, modern look:
 ## 👩‍💻 Author
 
 **Desiree Payoyo**  
-🎓 BSc Computer Science — Atlantic Technological University (ATU) Donegal  
+🎓 BSc Computer Science — Atlantic Technological University (ATU)  
 💼 Interests: Web & App Development | Java | UI/UX Design  
 
 
