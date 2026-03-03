@@ -155,6 +155,6 @@ JavaFX CSS gives the interface a sleek, modern look:
 **Desiree Payoyo**  
 🎓 BSc Computer Science — Atlantic Technological University (ATU) Donegal  
 💼 Interests: Web & App Development | Java | UI/UX Design  
-🌐 [LinkedIn Profile](https://www.linkedin.com/in/desiree-payoyo/)
+
 
  
